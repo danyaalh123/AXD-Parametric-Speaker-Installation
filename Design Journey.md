@@ -13,7 +13,7 @@
    - A stable 40 kHz PWM carrier signal is generated for each transducer array where the duty cycles are modulated by ADC readings.
 
 3. **Ultrasonic Transducer Arrays**:
-   - Two array of ten 40 kHz ultrasonic transducers driven by the PWM-modulated signal, amplified by TC4427A MOSFET drivers to 15v.
+   - Two arrays of ten TCT40-16T 40 kHz ultrasonic transducers are driven by the PWM-modulated signal, amplified by TC4427A MOSFET drivers to 15v.
 
 [View Full Circuit Schematic](Hardware/Schematic.pdf) 
 
