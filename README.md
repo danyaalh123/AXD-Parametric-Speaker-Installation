@@ -9,7 +9,3 @@ Parametric speakers leverage ultrasonic frequencies to create directional audio 
 ### Discussion and Conclusion
 This ultrasonic parametric speaker effectively demonstrated highly directional audio generation through ultrasonic PWM modulation. Limitations imposed by hardware necessitated straightforward ADC-to-PWM mapping over more advanced filtering methods. Future implementations could incorporate more powerful DSP hardware for enhanced audio quality.
 
-### References
-- Westervelt, P. J. (1963). "Parametric Acoustic Array," Journal of the Acoustical Society of America.
-- Pompei, F. J. (2002). "Sound from Ultrasound: The Parametric Array as an Audible Sound Source," MIT Dissertation.
-
