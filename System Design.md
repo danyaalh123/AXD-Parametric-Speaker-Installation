@@ -1,5 +1,7 @@
 ## System Design
 
+![IMG_5583-2](https://github.com/user-attachments/assets/a4bfb8e3-36ec-4720-9b57-e4fec107bb80)
+
 #### Hardware Configuration
 The system comprises:
 
