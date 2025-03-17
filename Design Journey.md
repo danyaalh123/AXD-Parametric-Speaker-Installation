@@ -2,8 +2,7 @@
 
 ![IMG_5583-2-2](https://github.com/user-attachments/assets/22096e95-4d62-4635-a6c1-b8ef8e7a7f68)
 
-#### Hardware Overview
-The system comprises:
+#### Hardware Overview:
 
 1. **Input Audio Signal Conditioning**:
    - Audio signals are AC-coupled to remove DC offset and biased at 2.5 V, aligning with Arduino’s ADC input range.
