@@ -11,7 +11,7 @@ The system comprises:
 
 2. **Microcontroller PWM Modulation**:
    - Arduino Mega samples audio using a 10-bit ADC at approximately 9.6 kHz.
-   - Timer1 generates a stable 40 kHz PWM carrier whose duty cycle is modulated by ADC readings.
+   - A stable 40 kHz PWM carrier signal is generated for each transducer array where the duty cycles are modulated by ADC readings.
 
 3. **Ultrasonic Transducer Arrays**:
    - Two array of ten 40 kHz ultrasonic transducers driven by the PWM-modulated signal boosted by TC4427A MOSFET drivers to 15v.
