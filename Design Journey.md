@@ -20,6 +20,9 @@
 ### Hardware Prototyping
 Prototypes were built on breadboards initially for flexibility, then finalized on stripboards for robustness.
 
+![IMG_3065](https://github.com/user-attachments/assets/aedcea0d-857a-4c31-a968-1cddd58d80ab)
+
+
 ### Initial Digital Sampling Approach
 Initially, audio signals were captured digitally via a Python script running PyAudio at a sampling rate of 44.1 kHz. Signals were then downsampled to 8 kHz using polyphase filtering to minimize aliasing and transmitted over serial communication to the Arduino.
 
