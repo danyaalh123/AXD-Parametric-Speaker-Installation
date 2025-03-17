@@ -3,7 +3,7 @@
 | Quantity | Part Description                    |
 |---------:|-------------------------------------|
 | 1        | ATmega2560 Arduino Mega             |
-| 30       | TCT40-16T 40 kHz Ultrasonic Transducer |
+| 20       | TCT40-16T 40 kHz Ultrasonic Transducer |
 | 1        | LM358 Operational Amplifier         |
 | 2        | TC4427A MOSFET Driver               |
 | 1        | LM2596 DC-DC Step-Down Module       |
