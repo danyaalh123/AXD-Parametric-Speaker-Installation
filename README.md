@@ -11,6 +11,8 @@ The initial concept involved creating an informative installation featuring dire
 
 In the plan, Danyaal Husain was responsible for electronic circuitry, while Edward Isola focused on building the physical interface, with both collaborating on MAX audio modulation.
 
+[View Initial Plan](AXD-InstallationInitialPlan.pdf) 
+
 ### Discussion of Spatial Audio Implementation
 By positioning two parametric speaker arrays at a slight angle, the system exploits inherent ultrasonic directionality to create distinct left-right spatial audio effects. By independently modulating each speaker array's ultrasonic carrier amplitude, directional control is precisely managed, allowing realistic stereo imaging without physical separation. This method achieves immersive spatial audio efficiently and compactly, suitable for various applications ranging from targeted advertising to personal listening environments.
 
