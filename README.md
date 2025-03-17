@@ -1,7 +1,7 @@
 # AXD Ultrasonic Parametric Speaker for Spatialised Audio Installation
 
 ### Abstract
-This repository details the design and prototyping of an ultrasonic parametric speaker array utilising amplitude modulation of a 40 kHz carrier frequency driven by Arduino, to create and demonstrate directional speakers for spatial audio applications. Two directional parametric speaker arrays were created and positioned at slight angles to enable precise left-right audio panning without the need for widely spaced conventional speakers. This was demonstrated in our interactive audio installation.
+This repository details the design and prototyping of an ultrasonic parametric speaker array utilising amplitude modulation of a 40 kHz carrier frequency driven by Arduino, to create and demonstrate directional speakers for spatial audio applications. Two directional parametric speaker arrays were created and positioned at slight angles to enable precise left-right audio panning without the need for widely spaced conventional speakers. This was demonstrated in our interactive spatial audio installation.
 
 ### Overview
 Parametric speakers utilise ultrasonic frequencies to create highly directional audio through nonlinear acoustic interactions. While ultrasonic frequencies themselves are inaudible, they become audible when amplitude-modulated and propagated through air, resulting in directional audible sound. The directionality and spatial precision of parametric speakers offer unique opportunities for spatial audio applications. This project aimed to design, prototype, and evaluate an ultrasonic parametric speaker system driven by an Arduino Mega, specifically focusing on achieving precise spatialised audio by angling two ultrasonic arrays to simulate traditional stereo and panning effects within a compact form factor.
@@ -17,8 +17,10 @@ In the plan, Danyaal Husain was responsible for electronic circuitry, while Edwa
 
 [View Initial Plan](AXD-InstallationInitialPlan.pdf) 
 
-### Discussion of Spatial Audio Implementation
-By positioning two parametric speaker arrays at a slight angle, the system exploits inherent ultrasonic directionality to create distinct left-right spatial audio effects. By independently modulating each speaker array's ultrasonic carrier amplitude, directional control is precisely managed, allowing realistic stereo imaging without physical separation. This method achieves immersive spatial audio efficiently and compactly, suitable for various applications ranging from targeted advertising to personal listening environments.
+### Spatial Audio Installation
+By positioning two parametric speaker arrays at a slight angle, the system exploits inherent ultrasonic directionality to create distinct left-right spatial audio effects. By independently modulating each directional speaker, amplitude panning can be used, allowing realistic stereo imaging without physical separation whilst also minimising crosstalk. This method achieves immersive spatial audio efficiently and compactly.
+
+The installation aims to allow users to interact with a MAX interface to move audio between left and right, demonstrating spatialised sound.
 
 ### Work Overview and Distribution
 The project involved multiple stages, including hardware prototyping, software development, and the creation of an interactive spatialised audio demonstration:
