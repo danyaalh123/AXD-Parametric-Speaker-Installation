@@ -1,4 +1,4 @@
-## Theoretical Background
+## Parametric Acoustics Theory
 Parametric acoustic arrays operate by exploiting nonlinear acoustic interactions that occur during the propagation of ultrasonic waves through a medium, typically air. Unlike conventional loudspeakers, which directly radiate sound waves at audible frequencies, parametric speakers emit intense, highly directional ultrasonic carrier waves. These waves interact nonlinearly in air, producing new frequency components, some of which fall within the audible range. This phenomenon is known as self-demodulation and was first theoretically described by Westervelt (1963).
 
 #### Nonlinear Acoustic Interaction and Self-Demodulation
