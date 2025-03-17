@@ -9,6 +9,19 @@ Parametric speakers leverage ultrasonic frequencies to create highly directional
 ### Discussion of Spatial Audio Implementation
 By positioning two parametric speaker arrays at a slight angle, the system utilizes inherent ultrasonic directionality to create distinct left-right spatial audio effects. By independently modulating each speaker array's ultrasonic carrier amplitude, directional control is precisely managed, allowing realistic stereo imaging without physical separation. This method achieves immersive spatial audio efficiently and compactly, suitable for various applications ranging from targeted advertising to personal listening environments.
 
+### Work Overview
+The project involved multiple stages, including hardware prototyping, software development, and the creation of an interactive spatialized audio demonstration:
+
+#### Hardware Prototyping
+- Initial amplifier and driver circuit was designed and prototyped on a breadboard, with a final implementation fabricated using stripboard to make it robust.
+
+#### Software Development
+- Arduino firmware was written to dynamically modulate PWM signals based on ADC readings from analog audio input to drive the parametric speaker arrays.
+
+#### MAX Patch and Interactive Demonstration
+- A MAX/MSP patch was developed, including a crossover network designed to optimise the audio frequency band for the ultrasonic arrays.
+- An interactive demonstration utilizing amplitude panning allowed users to experience real-time spatial audio control. Users could dynamically pan audio signals, demonstrating the directional capabilities of the parametric speakers clearly and interactively.
+
 ### Future Potential Applications
 The inherent directionality and compactness of parametric speakers offer significant potential for advanced spatial audio systems. Future developments could include:
 
