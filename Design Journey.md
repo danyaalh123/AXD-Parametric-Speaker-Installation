@@ -1,8 +1,8 @@
-## System Design
+## Design Journey
 
 ![IMG_5583-2-2](https://github.com/user-attachments/assets/22096e95-4d62-4635-a6c1-b8ef8e7a7f68)
 
-#### Hardware Configuration
+#### Hardware Overview
 The system comprises:
 
 1. **Input Audio Signal Conditioning**:
