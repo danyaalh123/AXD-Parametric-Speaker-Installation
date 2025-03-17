@@ -4,15 +4,15 @@
 
 #### Hardware Overview:
 
-1. **Input Audio Signal Conditioning**:
+1. **Input Audio Amplification and Conditioning**:
    - Audio signals are AC-coupled to remove DC offset and biased at 2.5 V, aligning with Arduino’s ADC input range.
    - Operational amplifier (LM358) boosts audio signal level to optimize ADC resolution.
 
-2. **Microcontroller PWM Modulation**:
+2. **Microcontroller Audio Sampling and PWM Modulation**:
    - Arduino Mega samples audio using a 10-bit ADC at approximately 9.6 kHz.
    - A stable 40 kHz PWM carrier signal is generated for each transducer array where the duty cycles are modulated by ADC readings.
 
-3. **Ultrasonic Transducer Arrays**:
+3. **Ultrasonic Transducer Array Amplification**:
    - Two arrays of ten TCT40-16T 40 kHz ultrasonic transducers are driven by the PWM-modulated signal, amplified by TC4427A MOSFET drivers to 15v.
 
 [View Full Circuit Schematic](Hardware/Schematic.pdf) 
