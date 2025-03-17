@@ -1,10 +1,14 @@
 # AXD Ultrasonic Parametric Speaker for Spatialised Audio Installation
 
 ### Abstract
-This repository details the design and prototyping of an ultrasonic parametric speaker array utilising amplitude modulation of a 40 kHz carrier frequency driven by Arduino, with an emphasis on spatial audio applications. Two parametric speaker arrays positioned at slight angles leverage ultrasonic directionality, enabling precise left-right audio panning without widely spaced conventional speakers. This approach creates an immersive spatial audio experience suitable for specialised directional sound applications.
+This repository details the design and prototyping of an ultrasonic parametric speaker array utilising amplitude modulation of a 40 kHz carrier frequency driven by Arduino, to create and demonstrate directional speakers for spatial audio applications. Two directional parametric speaker arrays were created and positioned at slight angles to enable precise left-right audio panning without the need for widely spaced conventional speakers. This was demonstrated in our interactive audio installation.
 
-### Introduction
+### Overview
 Parametric speakers utilise ultrasonic frequencies to create highly directional audio through nonlinear acoustic interactions. While ultrasonic frequencies themselves are inaudible, they become audible when amplitude-modulated and propagated through air, resulting in directional audible sound. The directionality and spatial precision of parametric speakers offer unique opportunities for spatial audio applications. This project aimed to design, prototype, and evaluate an ultrasonic parametric speaker system driven by an Arduino Mega, specifically focusing on achieving precise spatialised audio by angling two ultrasonic arrays to simulate traditional stereo and panning effects within a compact form factor.
+
+[Explanation of Parametric Speaker Theory](Parametric%20Speaker%20Theory.md) 
+
+[Detailed Design Journey and Process](Design%Journey.md) 
 
 ### Initial Plan
 The initial concept involved creating an informative installation featuring directional speakers positioned at different locations, narrating various sections of the display. Upon further consideration, the team determined that an interactive spatialised audio demonstration would offer a more engaging and effective user experience. So we changed the direction of our installation while keeping the majority of the project the same. 
