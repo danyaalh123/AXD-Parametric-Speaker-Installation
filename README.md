@@ -6,6 +6,11 @@ This repository details the design and prototyping of an ultrasonic parametric s
 ### Introduction
 Parametric speakers utilise ultrasonic frequencies to create highly directional audio through nonlinear acoustic interactions. While ultrasonic frequencies themselves are inaudible, they become audible when amplitude-modulated and propagated through air, resulting in directional audible sound. The directionality and spatial precision of parametric speakers offer unique opportunities for spatial audio applications. This project aimed to design, prototype, and evaluate an ultrasonic parametric speaker system driven by an Arduino Mega, specifically focusing on achieving precise spatialised audio by angling two ultrasonic arrays to simulate traditional stereo and panning effects within a compact form factor.
 
+### Initial Plan
+The initial concept involved creating an informative installation featuring directional speakers positioned at different locations, narrating various sections of the display. Upon further consideration, the team determined that an interactive spatialised audio demonstration would offer a more engaging and effective user experience. So we changed the direction of our installation while keeping the majority of the project the same. 
+
+In the plan, Danyaal Husain was responsible for electronic circuitry, while Edward Isola focused on building the physical interface, with both collaborating on MAX audio modulation.
+
 ### Discussion of Spatial Audio Implementation
 By positioning two parametric speaker arrays at a slight angle, the system exploits inherent ultrasonic directionality to create distinct left-right spatial audio effects. By independently modulating each speaker array's ultrasonic carrier amplitude, directional control is precisely managed, allowing realistic stereo imaging without physical separation. This method achieves immersive spatial audio efficiently and compactly, suitable for various applications ranging from targeted advertising to personal listening environments.
 
