@@ -1,4 +1,5 @@
-### System Design
+## System Design
+
 #### Hardware Configuration
 The system comprises:
 
