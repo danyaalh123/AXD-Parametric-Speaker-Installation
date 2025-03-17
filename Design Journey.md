@@ -25,7 +25,7 @@ Transitioning to direct analog sampling via Arduino's ADC improved system latenc
 
 The Nyquist-Shannon sampling theorem was applied, ensuring a sampling frequency at least twice the highest audible frequency intended for reproduction. Sampling at 9.6 kHz provided a theoretical bandwidth sufficient for clear speech and moderate-quality audio reproduction. Given the sampling frequency, the Arduino is theoretically capable of accurately capturing audio signals up to approximately 4.8 kHz, sufficient for typical speech and basic audio fidelity. This was used by a lowpass filter in the MAX Crossover to improve quality.
 
-To improve the audio quality and reduce signal noise, advanced filtering methods were tested including exponential moving average (EMA), moving average, median, and FIR filters. After testing these various methods, I found that whilst they managed to reduce signal noise, they also reduced clarity. In the end direct ADC-to-PWM mapping was used as it offered the best audio quality, while also minimising latency and processing load.
+To improve the audio quality and reduce signal noise, advanced filtering methods were tested including exponential moving average (EMA), moving average, median, and FIR filters. After testing these various methods, It was found that whilst they managed to reduce signal noise, they also reduced clarity. In the end direct ADC-to-PWM mapping was used as it offered the best audio quality, while also minimising latency and processing load.
 
 ### Prototyping and Implementation
 Prototypes were built on breadboards initially for flexibility, then finalized on stripboards for robustness.
