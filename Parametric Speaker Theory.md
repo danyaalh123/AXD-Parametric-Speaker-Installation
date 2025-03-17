@@ -1,4 +1,4 @@
-## Parametric Acoustics Theory
+## Parametric Speaker Theory
 
 Our project employs parametric speakers, which generate audible sound through the propagation and nonlinear interaction of ultrasonic waves in the air. Unlike conventional loudspeakers that emit sound directly at audible frequencies, parametric speakers produce highly directional, high-intensity ultrasonic carrier waves. As these waves travel through the air, they interact and generate new frequency components within the audible range through a process known as self-demodulation, first described theoretically by Westervelt (1963). This approach enables precise directional audio effects, enabling our spatial audio installation and interactive demonstration.
 
