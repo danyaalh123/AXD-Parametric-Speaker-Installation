@@ -14,7 +14,7 @@
 | 4        | 47kΩ Resistor                        |
 | 2        | 10Ω Resistor                        |
 | 2        | 10kΩ Potentiometer                  |
-| 2        | 0.1μF Capacitor                     |
+| 4        | 0.1μF Capacitor                     |
 | 2        | 10μF Capacitor                      |
 | 2        | 100μF Capacitor                     |
 | 2        | Stripboard                          |
