@@ -12,7 +12,7 @@ By positioning two parametric speaker arrays at a slight angle, the system utili
 ### Future Potential Applications
 The inherent directionality and compactness of parametric speakers offer significant potential for advanced spatial audio systems. Future developments could include:
 
-- **Surround Sound Applications**: Deploying multiple parametric arrays strategically positioned or electronically steered to create comprehensive surround sound experiences without traditional speaker placements.
+- **Surround Sound Applications**: Implementing multiple parametric arrays strategically placed to reflect sound off walls or ceilings, creating immersive surround sound environments without conventional speaker placement constraints.
 - **Adaptive Beam Steering**: Dynamic adjustment of audio beam directions through phased array techniques, enabling personalized or adaptive listening experiences.
 - **Interactive and Immersive Audio Zones**: Creating spatially controlled audio zones for museum exhibits, advertisements, or interactive installations within public spaces.
 
