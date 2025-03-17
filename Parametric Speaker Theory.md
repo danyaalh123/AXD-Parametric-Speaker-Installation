@@ -2,9 +2,9 @@
 
 Our project employs parametric speakers, which generate audible sound through the propagation and nonlinear interaction of ultrasonic waves in the air. Unlike conventional loudspeakers that emit sound directly at audible frequencies, parametric speakers produce highly directional, high-intensity ultrasonic carrier waves. As these waves travel through the air, they interact and generate new frequency components within the audible range through a process known as self-demodulation, first described theoretically by Westervelt (1963). This approach enables precise directional audio effects, enabling our spatial audio installation and interactive demonstration.
 
-### Nonlinear Acoustic Interaction and Self-Demodulation
+<img width="817" alt="Screenshot 2025-03-17 at 03 59 23" src="https://github.com/user-attachments/assets/c1fd3689-76b9-4762-a81a-d71a12982fbc" />
 
-![547940_1_En_149_Fig3_HTML](https://github.com/user-attachments/assets/3bb31134-12c0-4027-996b-f3619409e6de)
+### Nonlinear Acoustic Interaction and Self-Demodulation
 
 The nonlinear interaction that facilitates parametric audio generation arises due to variations in air density and pressure caused by high-intensity ultrasonic waves. According to Westervelt’s equation, the acoustic pressure of an amplitude-modulated ultrasonic carrier wave can be described mathematically as:  
 
@@ -23,6 +23,8 @@ In our project, Pulse Width Modulation (PWM) was utilised to modulate the ultras
 Audio signals were sampled through an analog-to-digital converter (ADC) within the Arduino Mega. The digital values obtained from the ADC (ranging from 0 to 1023) directly modulated the duty cycle of the PWM signal. This dynamic modulation varied the amplitude of the ultrasonic carrier wave, encoding audio information onto the ultrasonic carrier.
 
 By continuously adjusting the duty cycle based on the ADC values, the amplitude-modulated ultrasonic wave produced audible sound through nonlinear acoustic interactions in air, achieving precise directional audio.
+
+<img width="359" alt="Screenshot 2025-03-17 at 03 32 05" src="https://github.com/user-attachments/assets/8667209c-651a-4ff3-9500-89d0c4f14723" />
 
 ### Directional Sound Beam Formation
 
