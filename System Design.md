@@ -15,7 +15,9 @@ The system comprises:
    - An array of ten 40 kHz ultrasonic transducers driven by the PWM-modulated signal.
 
 ### Initial Digital Sampling Approach
-Initially, audio signals were captured digitally via a Python script running PyAudio at a sampling rate of 44.1 kHz. Signals were then downsampled to 8 kHz using polyphase filtering to minimize aliasing and transmitted over serial communication to the Arduino. This method introduced noticeable latency and complexity, limiting real-time responsiveness and audio clarity.
+Initially, audio signals were captured digitally via a Python script running PyAudio at a sampling rate of 44.1 kHz. Signals were then downsampled to 8 kHz using polyphase filtering to minimize aliasing and transmitted over serial communication to the Arduino.
+
+Although this method provided allowed flexible digital preprocessing, it suffered from latency and performance limitations due to the inherent delay of serial communication and processing overhead on both the computer and the Arduino.
 
 ### Optimized Analog Sampling Approach
 Transitioning to direct analog sampling via Arduino's ADC improved system latency and audio responsiveness significantly. ADC readings directly controlled PWM modulation, simplifying signal flow and maximizing system efficiency.
