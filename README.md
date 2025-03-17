@@ -1,4 +1,4 @@
-# AXD Ultrasonic Parametric Speaker For Spacialised Audio Installation
+# AXD Ultrasonic Parametric Speaker For Spatialised Audio Installation
 
 ### Abstract
 This repository outlines the design, prototyping, and implementation of an ultrasonic parametric speaker array utilizing amplitude modulation of a 40 kHz carrier frequency driven by Arduino. The designed system accepts audio input signals, performs necessary signal conditioning and amplification, and employs pulse-width modulation (PWM) techniques to modulate an ultrasonic carrier, driving an array of ultrasonic transducers. Various filtering and signal processing methods were evaluated for improving audio quality, with the fundamental direct mapping of ADC readings found to provide optimal performance given the hardware constraints.
