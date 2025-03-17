@@ -1,10 +1,10 @@
 ## Parametric Acoustics Theory
 
-![547940_1_En_149_Fig3_HTML](https://github.com/user-attachments/assets/3bb31134-12c0-4027-996b-f3619409e6de)
-
 Our project employs parametric speakers, which generate audible sound through the propagation and nonlinear interaction of ultrasonic waves in the air. Unlike conventional loudspeakers that emit sound directly at audible frequencies, parametric speakers produce highly directional, high-intensity ultrasonic carrier waves. As these waves travel through the air, they interact and generate new frequency components within the audible range through a process known as self-demodulation, first described theoretically by Westervelt (1963). This approach enables precise directional audio effects, enabling our spatial audio installation and interactive demonstration.
 
 ### Nonlinear Acoustic Interaction and Self-Demodulation
+
+![547940_1_En_149_Fig3_HTML](https://github.com/user-attachments/assets/3bb31134-12c0-4027-996b-f3619409e6de)
 
 The nonlinear interaction that facilitates parametric audio generation arises due to variations in air density and pressure caused by high-intensity ultrasonic waves. According to Westervelt’s equation, the acoustic pressure of an amplitude-modulated ultrasonic carrier wave can be described mathematically as:  
 
