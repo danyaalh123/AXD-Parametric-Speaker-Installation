@@ -34,7 +34,7 @@ where $J_1$ is the first-order Bessel function, $k$ is the wavenumber, $a$ is th
 
 ### Carrier Frequency (40 kHz)
 
-We have chosen a 40 kHz ultrasonic carrier frequency as it strikes a balance between directionality and atmospheric absorption. At this frequency, the short wavelengths (approximately 8.5 mm) enable a highly directional emission pattern. While higher frequencies offer even greater directivity due to their shorter wavelengths, they also suffer from increased atmospheric absorption, reducing their effective range and efficiency. By contrast, 40 kHz provides a practical compromise, maintaining strong directivity while keeping ultrasonic absorption manageable. Additionally, 40 kHz transducers are widely available and cost-effective, making them an accessible choice for our application.
+We chose a 40 kHz ultrasonic carrier frequency as it strikes a balance between directionality and atmospheric absorption. At this frequency, the short wavelengths (approximately 8.5 mm) enable a highly directional emission pattern. While higher frequencies offer even greater directivity due to their shorter wavelengths, they also suffer from increased atmospheric absorption, reducing their effective range and efficiency. By contrast, 40 kHz provides a practical compromise, maintaining strong directivity while keeping ultrasonic absorption manageable. Additionally, 40 kHz transducers are widely available and cost-effective, making them an accessible choice for our application.
 
 ### References
 
