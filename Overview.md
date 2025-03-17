@@ -1,4 +1,4 @@
-# AXD-Parametric-Speaker-Installation
+# AXD Ultrasonic Parametric Speaker For Spacialised Audio Installation
 
 ## Design and Implementation of an Ultrasonic Parametric Speaker Array
 
