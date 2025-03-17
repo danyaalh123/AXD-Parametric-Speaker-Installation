@@ -29,4 +29,4 @@ The Nyquist-Shannon sampling theorem was applied, ensuring a sampling frequency 
 To improve the audio quality and reduce signal noise, advanced filtering methods were tested including exponential moving average (EMA), moving average, median, and FIR filters. After testing these various methods, I found that whilst they managed to reduce signal noise, they also reduced clarity. In the end direct ADC-to-PWM mapping was used as it offered the best audio quality, while also minimising latency and processing load.
 
 ### Prototyping and Implementation
-Prototypes were built on breadboards initially for flexibility, then finalized on stripboards for robustness. KiCad was used for schematic design and documentation.
+Prototypes were built on breadboards initially for flexibility, then finalized on stripboards for robustness.
