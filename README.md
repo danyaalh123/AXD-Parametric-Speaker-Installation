@@ -17,14 +17,14 @@ By positioning two parametric speaker arrays at a slight angle, the system explo
 ### Work Overview and Distribution
 The project involved multiple stages, including hardware prototyping, software development, and the creation of an interactive spatialised audio demonstration:
 
-#### Hardware Prototyping - Danyaal Hussain
+#### Hardware Prototyping - Completed by Danyaal Hussain
 - An initial amplifier and driver circuit was designed and prototyped on a breadboard, with a final robust implementation fabricated using stripboard.
 
-#### Software Development - Danyaal Hussain
+#### Software Development - Completed by Danyaal Hussain
 - Arduino firmware was written to dynamically modulate PWM signals based on ADC readings from analogue audio inputs, driving the parametric speaker arrays.
 - A MAX patch was developed, including a crossover network designed to optimise the audio frequency band for the ultrasonic arrays.
 
-#### Interactive Demonstration - Edward Isola
+#### Interactive Demonstration - Completed by Edward Isola
 - A MAX patch was created for an interactive demonstration utilising amplitude panning to enable users to experience real-time spatial audio control. Users could dynamically pan audio signals, clearly and interactively demonstrating the directional capabilities of the parametric speakers.
 
 ### Future Project Applications
@@ -34,5 +34,7 @@ The inherent directionality and compactness of parametric speakers offer signifi
 - **Adaptive Beam Steering**: Dynamic adjustment of audio beam directions through phased array techniques, enabling personalised or adaptive listening experiences.
 - **Interactive and Immersive Audio Zones**: Creating spatially controlled audio zones for museum exhibits, advertisements, or interactive installations within public spaces.
 
-### Conclusion
-This project successfully demonstrated an ultrasonic parametric speaker array capable of directional and spatial audio generation using amplitude modulation at 40 kHz. By angling two arrays, precise spatial audio was achieved without requiring physically distant speaker placement. Future advancements in hardware and software processing are likely to enhance these systems further, expanding their practical and innovative applications in personal and commercial audio environments.
+### Reflection and Conclusion
+This project successfully demonstrated an ultrasonic parametric speaker array capable of directional audio, achieving spatialised sound without requiring physically distant speaker placement. Despite altering the application's concept from informational to interactive, the project proceeded as planned, with task distribution remaining the same as outlined in the plan.
+
+Moving forward, further refinements in hardware efficiency, audio quality, and software processing techniques could expand the practical applications and versatility of ultrasonic parametric speakers across personal and commercial environments.
