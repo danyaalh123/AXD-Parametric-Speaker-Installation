@@ -14,17 +14,17 @@ $\frac{\partial^2 p}{\partial z \partial \tau} = \frac{\beta}{2\rho_0 c_0^3} \fr
 
 where $p$ is the pressure wave amplitude, $z$ is the propagation distance, $\tau$ is the retarded time, $\beta$ is the coefficient of nonlinearity, $\rho_0$ is the ambient air density, and $c_0$ is the speed of sound in air.
 
-### Carrier Frequency (40 kHz)
-
-The ultrasonic carrier frequency selected (40 kHz) optimizes the trade-off between directionality and atmospheric absorption. Frequencies higher than 20 kHz ensure inaudibility, while the relatively short wavelengths (approximately 8.5 mm at 40 kHz) facilitate highly directional emission patterns. Higher frequencies provide improved directionality due to shorter wavelengths but experience significantly greater atmospheric absorption, thus limiting effective range and efficiency. Therefore, 40 kHz is a practical compromise that maintains substantial directivity with manageable ultrasonic absorption, providing a sufficient beam length and audible sound level.
-
 ### Directional Sound Beam Formation
 
 The directivity of a parametric speaker is substantially greater than conventional audio speakers because the size of the ultrasonic transducer array is significantly larger than the ultrasonic wavelengths emitted. The directivity $D(\theta)$ of a planar ultrasonic transducer array is approximated by:  
 
 $D(\theta) = \frac{2J_1(ka \sin \theta)}{ka \sin \theta}$  
 
-where $J_1$ is the first-order Bessel function, $k$ is the wavenumber, $a$ is the radius of the transducer array, and $\theta$ is the angle off-axis. The resulting beam exhibits pronounced directionality due to constructive interference along the propagation axis, with destructive interference minimizing the sound off-axis. This high directivity results from the ratio of the array size to the wavelength, forming a coherent directional beam that closely resembles a beam of light from a spotlight.
+where $J_1$ is the first-order Bessel function, $k$ is the wavenumber, $a$ is the radius of the transducer array, and $\theta$ is the angle off-axis. The resulting beam exhibits pronounced directionality due to constructive interference along the propagation axis, with destructive interference minimizing the sound off-axis. This high directivity results from the ratio of the array size to the wavelength, forming a coherent directional beam.
+
+### Carrier Frequency (40 kHz)
+
+The ultrasonic carrier frequency selected (40 kHz) optimizes the trade-off between directionality and atmospheric absorption. Frequencies higher than 20 kHz ensure inaudibility, while the relatively short wavelengths (approximately 8.5 mm at 40 kHz) facilitate highly directional emission patterns. Higher frequencies provide improved directionality due to shorter wavelengths but experience significantly greater atmospheric absorption, thus limiting effective range and efficiency. Therefore, 40 kHz is a practical compromise that maintains substantial directivity with manageable ultrasonic absorption, providing a sufficient beam length and audible sound level.
 
 ### References
 
