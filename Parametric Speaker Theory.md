@@ -16,6 +16,14 @@ $\frac{\partial^2 p}{\partial z \partial \tau} = \frac{\beta}{2\rho_0 c_0^3} \fr
 
 where $p$ is the pressure wave amplitude, $z$ is the propagation distance, $\tau$ is the retarded time, $\beta$ is the coefficient of nonlinearity, $\rho_0$ is the ambient air density, and $c_0$ is the speed of sound in air.
 
+### PWM Modulation
+
+In our project, Pulse Width Modulation (PWM) was utilised to modulate the ultrasonic carrier signal at a frequency of 40 kHz. PWM modulation is a technique used to control power delivered to electronic loads by rapidly switching a signal between on (high) and off (low) states, with the proportion of the cycle spent in the high state known as the duty cycle.
+
+Audio signals were sampled through an analog-to-digital converter (ADC) within the Arduino Mega. The digital values obtained from the ADC (ranging from 0 to 1023) directly modulated the duty cycle of the PWM signal. This dynamic modulation varied the amplitude of the ultrasonic carrier wave, encoding audio information onto the ultrasonic carrier.
+
+By continuously adjusting the duty cycle based on the ADC values, the amplitude-modulated ultrasonic wave produced audible sound through nonlinear acoustic interactions in air, achieving precise directional audio.
+
 ### Directional Sound Beam Formation
 
 The directivity of a parametric speaker is substantially greater than conventional audio speakers because the size of the ultrasonic transducer array is significantly larger than the ultrasonic wavelengths emitted. The directivity $D(\theta)$ of a planar ultrasonic transducer array is approximated by:  
