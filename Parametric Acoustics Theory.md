@@ -14,7 +14,7 @@ $\frac{\partial^2 p}{\partial z \partial \tau} = \frac{\beta}{2\rho_0 c_0^3} \fr
 
 where $p$ is the pressure wave amplitude, $z$ is the propagation distance, $\tau$ is the retarded time, $\beta$ is the coefficient of nonlinearity, $\rho_0$ is the ambient air density, and $c_0$ is the speed of sound in air.
 
-### Selection of Carrier Frequency (40 kHz)
+### Carrier Frequency (40 kHz)
 
 The ultrasonic carrier frequency selected (40 kHz) optimizes the trade-off between directionality and atmospheric absorption. Frequencies higher than 20 kHz ensure inaudibility, while the relatively short wavelengths (approximately 8.5 mm at 40 kHz) facilitate highly directional emission patterns. Higher frequencies provide improved directionality due to shorter wavelengths but experience significantly greater atmospheric absorption, thus limiting effective range and efficiency. Therefore, 40 kHz is a practical compromise that maintains substantial directivity with manageable ultrasonic absorption, providing a sufficient beam length and audible sound level.
 
