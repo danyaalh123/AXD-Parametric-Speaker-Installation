@@ -1,5 +1,7 @@
 # AXD Ultrasonic Parametric Speaker for Spatialised Audio Installation
 
+![IMG_5585-2](https://github.com/user-attachments/assets/44825533-8027-448e-ba40-734f7b2ee0f4)
+
 ### Abstract
 This repository details the design and prototyping of an ultrasonic parametric speaker array utilising amplitude modulation of a 40 kHz carrier frequency driven by Arduino, to create and demonstrate directional speakers for spatial audio applications. Two directional parametric speaker arrays were created and positioned at slight angles to enable precise left-right audio panning without the need for widely spaced conventional speakers. This was demonstrated in our interactive spatial audio installation.
 
