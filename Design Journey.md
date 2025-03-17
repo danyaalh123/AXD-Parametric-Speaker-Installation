@@ -13,7 +13,7 @@
    - A stable 40 kHz PWM carrier signal is generated for each transducer array where the duty cycles are modulated by ADC readings.
 
 3. **Ultrasonic Transducer Arrays**:
-   - Two array of ten 40 kHz ultrasonic transducers driven by the PWM-modulated signal boosted by TC4427A MOSFET drivers to 15v.
+   - Two array of ten 40 kHz ultrasonic transducers driven by the PWM-modulated signal, amplified by TC4427A MOSFET drivers to 15v.
 
 ### Initial Digital Sampling Approach
 Initially, audio signals were captured digitally via a Python script running PyAudio at a sampling rate of 44.1 kHz. Signals were then downsampled to 8 kHz using polyphase filtering to minimize aliasing and transmitted over serial communication to the Arduino.
