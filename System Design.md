@@ -25,7 +25,7 @@ Although this method provided allowed flexible digital preprocessing, it suffere
 Transitioning to direct analog sampling via Arduino's ADC improved system latency and audio responsiveness significantly. ADC readings directly controlled PWM modulation, simplifying signal flow and maximizing system efficiency.
 
 ### ADC and Signal Processing
-The Nyquist-Shannon sampling theorem was applied, ensuring a sampling frequency at least twice the highest audible frequency intended for reproduction. Sampling at 9.6 kHz provided a theoretical bandwidth sufficient for clear speech and moderate-quality audio reproduction.
+The Nyquist-Shannon sampling theorem was applied, ensuring a sampling frequency at least twice the highest audible frequency intended for reproduction. Sampling at 9.6 kHz provided a theoretical bandwidth sufficient for clear speech and moderate-quality audio reproduction. The Nyquist theorem states that to accurately reconstruct a sampled audio signal, the sampling frequency must be at least twice the highest frequency of the audio signal. Given a sampling frequency of approximately 9.6 kHz, the Arduino is theoretically capable of accurately capturing audio signals up to approximately 4.8 kHz, sufficient for typical speech and basic audio fidelity. This was used by a lowpass filter in the MAX Crossover to improve quality.
 
 Advanced filtering methods tested include exponential moving average (EMA), moving average, median, and FIR filters. However, direct ADC-to-PWM mapping offered superior performance by minimizing latency and processing load. The other methods reduced signal noice but also reduced clarity.
 
