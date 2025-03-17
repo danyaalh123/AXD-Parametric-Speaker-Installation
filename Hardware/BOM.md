@@ -12,7 +12,7 @@
 | 2        | 1kΩ Resistor                        |
 | 2        | 100kΩ Resistor                      |
 | 4        | 47kΩ Resistor                        |
-| 2        | 10Ω Resistor                        |
+| 1        | 10Ω Resistor                        |
 | 2        | 10kΩ Potentiometer                  |
 | 4        | 0.1μF Capacitor                     |
 | 2        | 10μF Capacitor                      |
