@@ -22,6 +22,9 @@ In the plan, Danyaal Husain was responsible for electronic circuitry, while Edwa
 ### Spatial Audio Installation
 By positioning two parametric speaker arrays at a slight angle, the system exploits inherent ultrasonic directionality to create distinct left-right spatial audio effects. By independently modulating each directional speaker, amplitude panning can be used, allowing realistic stereo imaging without physical separation whilst also minimising crosstalk. This method achieves immersive spatial audio efficiently and compactly.
 
+![WhatsApp Image 2025-03-18 at 00 25 50](https://github.com/user-attachments/assets/bbc7f950-0914-40f0-9461-b950306ba9c1)
+
+
 The installation aims to allow users to interact with a MAX interface to move audio between left and right, demonstrating spatialised sound.
 
 ### Work Overview and Distribution
