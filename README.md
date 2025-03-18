@@ -52,6 +52,6 @@ The inherent directionality and compactness of parametric speakers offer signifi
 - **Interactive and Immersive Audio Zones**: Creating spatially controlled audio zones for museum exhibits, advertisements, or interactive installations within public spaces.
 
 ### Reflection and Conclusion
-This project successfully demonstrated an ultrasonic parametric speaker array capable of directional audio, achieving spatialised sound without requiring physically distant speaker placement. Despite altering the application's concept from informational to interactive, the project proceeded as planned, with task distribution remaining the same as outlined in the plan.
+This project successfully demonstrated an ultrasonic parametric speaker array capable of directional audio, achieving spatialised sound without requiring physically distant speaker placement. Despite altering the directional speaker application for the installation, the project proceeded as planned, with task distribution remaining similar to what was outlined in the plan.
 
 Moving forward, further refinements in hardware efficiency, audio quality, and software processing techniques could expand the practical applications and versatility of ultrasonic parametric speakers across personal and commercial environments.
