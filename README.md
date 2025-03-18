@@ -30,6 +30,8 @@ For our AXD demonstration, we positioned two ultrasonic speaker arrays at a slig
 
 The installation allows participants to manipulate the spatial positioning of audio in real time using a custom MAX interface. This interactive setup enables users to pan sound between the left and right speakers dynamically, providing an intuitive and engaging way to experience spatialised sound. The compact and directional nature of this system opens up new possibilities for immersive audio demonstrations in various applications.
 
+<img width="793" alt="Screenshot 2025-03-18 at 12 14 33" src="https://github.com/user-attachments/assets/94ddf2e3-61c2-4e93-b86c-f1e5e02d1663" />
+
 ### Work Overview and Distribution
 The project involved multiple stages, including hardware prototyping, software development, and the creation of an interactive spatialised audio demonstration, the distribution of work mostly stayed the same as the plan. The different parts of the work are below.
 
