@@ -18,7 +18,7 @@ The initial concept involved creating an informative installation featuring dire
 
 [View Initial Plan](AXD-InstallationInitialPlan.pdf) 
 
-In the plan, Danyaal Husain was responsible for electronic circuitry, while Edward Isola focused on building the physical interface, with both collaborating on MAX audio modulation.
+In the inital plan, Danyaal Husain was responsible for electronic circuitry, while Edward Isola focused on building the physical interface, with both collaborating on MAX audio modulation. Details on how work was distributed in practice is listed below.
 
 ### Spatial Audio Installation
 After successfully designing and fabricating the parametric speakers, we had the idea to use them for spatialised audio. Unlike conventional stereo speakers, which require significant physical separation to achieve spatial effects, our approach utilises the directionality of parametric speakers to create an immersive sound experience within a compact setup.
