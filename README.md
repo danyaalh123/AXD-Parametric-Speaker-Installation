@@ -44,25 +44,10 @@ The project involved multiple stages, including hardware prototyping, software d
 #### Interactive Demonstration - Completed by Edward Isola
 - A MAX patch was created for an interactive demonstration utilising amplitude panning to enable users to experience real-time spatial audio control. Users could dynamically pan audio signals, clearly and interactively demonstrating the directional capabilities of the parametric speakers.
 
-### Future Project Applications
-The inherent directionality and compactness of parametric speakers offer significant potential for advanced spatial audio systems. Future developments could include:
-
-- **Surround Sound Applications**: Implementing multiple parametric arrays strategically placed to reflect sound off walls or ceilings, creating immersive surround sound environments without conventional speaker placement constraints.
-- **Adaptive Beam Steering**: Dynamic adjustment of audio beam directions through phased array techniques, enabling personalised or adaptive listening experiences.
-- **Interactive and Immersive Audio Zones**: Creating spatially controlled audio zones for museum exhibits, advertisements, or interactive installations within public spaces.
-
-### Reflection and Conclusion
-This project successfully demonstrated an ultrasonic parametric speaker array capable of directional audio, achieving spatialised sound without requiring physically distant speaker placement. Despite altering the directional speaker application for the installation, the project proceeded as planned, with task distribution remaining similar to what was outlined in the plan.
-
-Moving forward, further refinements in hardware efficiency, audio quality, and software processing techniques could expand the practical applications and versatility of ultrasonic parametric speakers across personal and commercial environments.
-
-
 ### Reflection 
-This project successfully demonstrated an ultrasonic parametric speaker array capable of directional audio, achieving spatialised sound without requiring physically distant speaker placement. Despite altering the directional speaker application for the installation, the project proceeded as planned, with task distribution remaining similar to what was outlined in the plan. 
-
 Reviewing the project, we highlighted potential limitations, particularly in audio quality and system performance, which provide opportunities for significant improvement.
 
-#### Audio Quality Issues and Potential Improvements
+#### Audio Quality Issues
 While the parametric speakers functioned as expected, the overall audio quality was notably poor. The sound was often distorted, lacked clarity, and suffered from low signal strength. These issues can be attributed to several factors, including non-ideal amplitude modulation, limited frequency response, and insufficient power handling of the ultrasonic transducers.
 
 #### Arduino’s Poor ADC Performance
@@ -73,3 +58,6 @@ Further improvements could expand the practical applications of this technology:
 - **Beamforming**: Implementing a phased array system to dynamically steer sound could enable personalized, adaptive listening experiences.
 - **Surround Sound Applications**: Implementing multiple parametric arrays strategically placed to reflect sound off walls or ceilings, creating immersive surround sound environments without conventional speaker placement constraints.
 - **Interactive and Immersive Audio Zones**: Creating spatially controlled audio zones for museum exhibits, advertisements, or interactive installations within public spaces.
+
+### Conclusion
+This project successfully demonstrated the use of ultrasonic parametric speakers for spatialised audio, achieving precise directional sound within a compact setup. Despite limitations in audio quality due to hardware constraints, the system proved effective for our interactive installation. Despite altering the directional speaker application for the installation, the project proceeded as planned, with task distribution remaining similar to what was outlined in the plan.
