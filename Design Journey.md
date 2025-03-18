@@ -20,12 +20,13 @@
 [View Arduino Code](Software/Parametric_Driver.ino) 
 
 ### Hardware Prototyping
-Prototypes were built on breadboards initially for flexibility, then finalized on stripboards for robustness.
+Prototypes were built on breadboards initially for flexibility, then finalized on stripboards for robustness. I have provided a schematic for the cicuit below.
 
 ![IMG_3065](https://github.com/user-attachments/assets/aedcea0d-857a-4c31-a968-1cddd58d80ab)
 
 ![WhatsApp Image 2025-03-18 at 00 25 51](https://github.com/user-attachments/assets/6ba6beea-5db3-491e-a4b9-f0b09412c42c)
 
+<img width="1020" alt="Screenshot 2025-03-18 at 12 34 54" src="https://github.com/user-attachments/assets/4bf75866-33a5-41f4-9dea-08d7018f502d" />
 
 
 ### Initial Digital Sampling Approach
