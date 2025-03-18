@@ -17,6 +17,8 @@
 
 [View Full Circuit Schematic](Hardware/Schematic.pdf) 
 
+[View Arduino Code](Software/Parametric_Driver.ino) 
+
 ### Hardware Prototyping
 Prototypes were built on breadboards initially for flexibility, then finalized on stripboards for robustness.
 
