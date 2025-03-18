@@ -22,6 +22,9 @@ Prototypes were built on breadboards initially for flexibility, then finalized o
 
 ![IMG_3065](https://github.com/user-attachments/assets/aedcea0d-857a-4c31-a968-1cddd58d80ab)
 
+![WhatsApp Image 2025-03-18 at 00 25 51](https://github.com/user-attachments/assets/6ba6beea-5db3-491e-a4b9-f0b09412c42c)
+
+
 
 ### Initial Digital Sampling Approach
 Initially, audio signals were captured digitally via a Python script running PyAudio at a sampling rate of 44.1 kHz. Signals were then downsampled to 8 kHz using polyphase filtering to minimize aliasing and transmitted over serial communication to the Arduino.
