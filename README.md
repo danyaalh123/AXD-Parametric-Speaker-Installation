@@ -21,7 +21,7 @@ The initial concept involved creating an informative installation featuring dire
 In the plan, Danyaal Husain was responsible for electronic circuitry, while Edward Isola focused on building the physical interface, with both collaborating on MAX audio modulation.
 
 ### Spatial Audio Installation
-After successfully designing and fabricating the parametric speakers, we had the idea to use them for spatialised audio applications. Unlike conventional stereo speakers, which require significant physical separation to achieve spatial effects, our approach utilises the directionality of parametric speakers to create an immersive sound experience within a compact setup.
+After successfully designing and fabricating the parametric speakers, we had the idea to use them for spatialised audio. Unlike conventional stereo speakers, which require significant physical separation to achieve spatial effects, our approach utilises the directionality of parametric speakers to create an immersive sound experience within a compact setup.
 
 For our AXD demonstration, we positioned two ultrasonic speaker arrays at a slight angle to each other, allowing controlled panning between left and right channels. By modulating the amplitude of each speaker independently, we could achieve realistic stereo imaging and spatial positioning without crosstalk. This design enables users to experience directional audio without requiring widely spaced speakers, making it a more efficient and interactive solution.
 
