@@ -31,13 +31,14 @@ For our AXD demonstration, we positioned two ultrasonic speaker arrays at a slig
 The installation allows participants to manipulate the spatial positioning of audio in real time using a custom MAX interface. This interactive setup enables users to pan sound between the left and right speakers dynamically, providing an intuitive and engaging way to experience spatialised sound. The compact and directional nature of this system opens up new possibilities for immersive audio demonstrations in various applications.
 
 ### Work Overview and Distribution
-The project involved multiple stages, including hardware prototyping, software development, and the creation of an interactive spatialised audio demonstration:
+The project involved multiple stages, including hardware prototyping, software development, and the creation of an interactive spatialised audio demonstration, the distribution of work mostly stayed the same as the plan. The different parts of the work are below.
 
 #### Hardware Prototyping - Completed by Danyaal Hussain
-- An initial amplifier and driver circuit was designed and prototyped on a breadboard, with a final robust implementation fabricated using stripboard.
+- Two ultrasonic transducer arrays were created to produce the directional audio.
+- An amplifier and driver circuit was designed, prototyped and tested on a breadboard, with a final robust implementation fabricated using stripboard.
 
 #### Software Development - Completed by Danyaal Hussain
-- Arduino firmware was written to dynamically modulate PWM signals based on ADC readings from analogue audio inputs, driving the parametric speaker arrays.
+- Arduino code was written to dynamically modulate PWM signals based on ADC readings from analogue audio inputs, driving the parametric speaker arrays.
 - A MAX patch was developed, including a crossover network designed to optimise the audio frequency band for the ultrasonic arrays.
 
 #### Interactive Demonstration - Completed by Edward Isola
