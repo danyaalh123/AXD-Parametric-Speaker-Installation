@@ -55,3 +55,21 @@ The inherent directionality and compactness of parametric speakers offer signifi
 This project successfully demonstrated an ultrasonic parametric speaker array capable of directional audio, achieving spatialised sound without requiring physically distant speaker placement. Despite altering the directional speaker application for the installation, the project proceeded as planned, with task distribution remaining similar to what was outlined in the plan.
 
 Moving forward, further refinements in hardware efficiency, audio quality, and software processing techniques could expand the practical applications and versatility of ultrasonic parametric speakers across personal and commercial environments.
+
+
+### Reflection 
+This project successfully demonstrated an ultrasonic parametric speaker array capable of directional audio, achieving spatialised sound without requiring physically distant speaker placement. Despite altering the directional speaker application for the installation, the project proceeded as planned, with task distribution remaining similar to what was outlined in the plan. 
+
+Reviewing the project, we highlighted potential limitations, particularly in audio quality and system performance, which provide opportunities for significant improvement.
+
+#### Audio Quality Issues and Potential Improvements
+While the parametric speakers functioned as expected, the overall audio quality was notably poor. The sound was often distorted, lacked clarity, and suffered from low signal strength. These issues can be attributed to several factors, including non-ideal amplitude modulation, limited frequency response, and insufficient power handling of the ultrasonic transducers.
+
+#### Arduino’s Poor ADC Performance and Alternatives  
+A major limitation of the system is the poor performance of the Arduino Mega’s ADC (Analog-to-Digital Converter). The Arduino Mega's 10-bit ADC with a sampling rate of ~9.6kHz is insufficient for high-fidelity audio processing. This results in low-resolution sampling, noticeable quantization noise, and poor frequency response, contributing to distorted and low-quality sound output. Improvements could be made by upgrading to a more capable microcontroller or using external ADC hardware. By improving the ADC performance, the system could achieve smoother amplitude modulation, reduced noise, and significantly enhanced audio clarity.
+
+#### Future Applications 
+Further improvements could expand the practical applications of this technology:
+- **Beamforming**: Implementing a phased array system to dynamically steer sound could enable personalized, adaptive listening experiences.
+- **Surround Sound Applications**: Implementing multiple parametric arrays strategically placed to reflect sound off walls or ceilings, creating immersive surround sound environments without conventional speaker placement constraints.
+- **Interactive and Immersive Audio Zones**: Creating spatially controlled audio zones for museum exhibits, advertisements, or interactive installations within public spaces.
