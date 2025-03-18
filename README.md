@@ -65,7 +65,7 @@ Reviewing the project, we highlighted potential limitations, particularly in aud
 #### Audio Quality Issues and Potential Improvements
 While the parametric speakers functioned as expected, the overall audio quality was notably poor. The sound was often distorted, lacked clarity, and suffered from low signal strength. These issues can be attributed to several factors, including non-ideal amplitude modulation, limited frequency response, and insufficient power handling of the ultrasonic transducers.
 
-#### Arduino’s Poor ADC Performance and Alternatives  
+#### Arduino’s Poor ADC Performance
 A major limitation of the system is the poor performance of the Arduino Mega’s ADC (Analog-to-Digital Converter). The Arduino Mega's 10-bit ADC with a sampling rate of ~9.6kHz is insufficient for high-fidelity audio processing. This results in low-resolution sampling, noticeable quantization noise, and poor frequency response, contributing to distorted and low-quality sound output. Improvements could be made by upgrading to a more capable microcontroller or using external ADC hardware. By improving the ADC performance, the system could achieve smoother amplitude modulation, reduced noise, and significantly enhanced audio clarity.
 
 #### Future Applications 
