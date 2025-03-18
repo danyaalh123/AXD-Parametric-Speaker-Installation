@@ -20,7 +20,11 @@ In the plan, Danyaal Husain was responsible for electronic circuitry, while Edwa
 [View Initial Plan](AXD-InstallationInitialPlan.pdf) 
 
 ### Spatial Audio Installation
-By positioning two parametric speaker arrays at a slight angle, the system exploits inherent ultrasonic directionality to create distinct left-right spatial audio effects. By independently modulating each directional speaker, amplitude panning can be used, allowing realistic stereo imaging without physical separation whilst also minimising crosstalk. This method achieves immersive spatial audio efficiently and compactly.
+After successfully designing and fabricating the parametric speakers, we had an idea to use them for spatialised audio applications. Unlike conventional stereo speakers, which require significant physical separation to achieve spatial effects, our approach utilises the directionality of parametric speakers to create an immersive sound experience within a compact setup.
+
+For our AXD demonstration, we positioned two ultrasonic speaker arrays at a slight angle to each other, allowing controlled panning between left and right channels. By modulating the amplitude of each speaker independently, we could achieve realistic stereo imaging and spatial positioning without crosstalk. This design enables users to experience directional audio without requiring widely spaced speakers, making it a more efficient and interactive solution.
+
+The installation allows participants to manipulate the spatial positioning of audio in real time using a custom MAX interface. This interactive setup enables users to pan sound between the left and right speakers dynamically, providing an intuitive and engaging way to experience spatialised sound. The compact and directional nature of this system opens up new possibilities for immersive audio demonstrations in various applications.
 
 ![WhatsApp Image 2025-03-18 at 00 25 50](https://github.com/user-attachments/assets/bbc7f950-0914-40f0-9461-b950306ba9c1)
 
