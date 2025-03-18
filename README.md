@@ -14,9 +14,9 @@ Parametric speakers utilise ultrasonic frequencies to create highly directional 
 
 ### Initial Plan
 
-[View Initial Plan](AXD-InstallationInitialPlan.pdf) 
-
 The initial concept involved creating an informative installation featuring directional speakers positioned at different locations, narrating various sections of the display. Upon further consideration, the team determined that an interactive spatialised audio demonstration would offer a more engaging and effective user experience. So we changed the direction of our installation while keeping the majority of the project the same. 
+
+[View Initial Plan](AXD-InstallationInitialPlan.pdf) 
 
 In the plan, Danyaal Husain was responsible for electronic circuitry, while Edward Isola focused on building the physical interface, with both collaborating on MAX audio modulation.
 
