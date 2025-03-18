@@ -8,9 +8,9 @@ This repository details the design and prototyping of an ultrasonic parametric s
 ### Overview
 Parametric speakers utilise ultrasonic frequencies to create highly directional audio through nonlinear acoustic interactions. While ultrasonic frequencies themselves are inaudible, they become audible when amplitude-modulated and propagated through air, resulting in directional audible sound. The directionality and spatial precision of parametric speakers offer unique opportunities for spatial audio applications. This project aimed to design, prototype, and evaluate an ultrasonic parametric speaker system driven by an Arduino Mega, specifically focusing on achieving precise spatialised audio by angling two ultrasonic arrays to simulate traditional stereo and panning effects within a compact form factor.
 
-[Explanation of Parametric Speaker Theory](Parametric%20Speaker%20Theory.md) 
+#[Explanation of Parametric Speaker Theory](Parametric%20Speaker%20Theory.md) 
 
-[Detailed Design Journey and Process](Design%Journey.md) 
+#[Detailed Design Journey and Process](Design%Journey.md) 
 
 ### Initial Plan
 
